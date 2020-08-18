@@ -5,14 +5,15 @@ export class GridRows extends Component {
     const grid = {
       display: "grid",
       gridGap: "1rem",
-      gridTemplateRows: "1fr 3fr 1fr",
+      gridTemplateRows: "2fr 3fr 2fr",
       /* Set implicit rows */
-      gridAutoRows: "3fr",
-      gridTemplateColumns: "repeat(2, 1fr)",
+      gridAutoRows: "1fr",
+      // gridTemplateColumns: "repeat(2, 1fr)",
+      margin: "1rem",
     }
 
     const item = {
-      padding: "3rem",
+      padding: "1rem",
       background: "#f4f4f4",
       border: "#ccc 1px solid",
       textAlign: "center",

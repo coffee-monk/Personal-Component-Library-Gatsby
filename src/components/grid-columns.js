@@ -4,9 +4,10 @@ export class GridColumns extends Component {
   render() {
     const grid = {
       display: "grid",
-      gridTemplateColumns: "1fr 3fr",
-      gridTemplateColumns: "repeat(2, auto)",
+      gridTemplateColumns: "1fr 1fr 1fr",
+      // gridTemplateColumns: "repeat(2, auto)",
       gridGap: "1rem",
+      margin: "1rem",
     }
 
     const item = {

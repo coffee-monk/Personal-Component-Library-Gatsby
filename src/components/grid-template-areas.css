@@ -12,6 +12,7 @@
           'box-3 box-3 box-3'
           'footer footer footer'; */
   grid-gap: 1rem;
+  margin: 1rem;
 }
 
 .header,

@@ -5,6 +5,7 @@ export class GridSpan extends Component {
     const grid = {
       display: "grid",
       gridTemplateColumns: "repeat(4, 1fr)",
+      margin: "1rem"
     }
 
     const item = {

@@ -7,10 +7,10 @@ export class GridTemplateAreas extends Component {
     return (
       <div className="container">
         <header className="header">
-          <h1>My Website</h1>
+          <h1>Header</h1>
         </header>
         <section className="content">
-          <h3>Welcome To My Site</h3>
+          <h3>Content</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
             suscipit reprehenderit aperiam repudiandae voluptatibus, expedita ex
@@ -21,7 +21,7 @@ export class GridTemplateAreas extends Component {
           </p>
         </section>
         <aside className="sidebar">
-          <h3>Contact Us</h3>
+          <h3>Sidebar</h3>
           <ul>
             <li>Some Company</li>
             <li>50 Main st, Boston MA</li>
@@ -30,7 +30,7 @@ export class GridTemplateAreas extends Component {
           </ul>
         </aside>
         <div className="box-1">
-          <h3>Heading</h3>
+          <h3>Box-1</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             quisquam at veritatis a labore quod illo dolorem fugiat quas
@@ -39,7 +39,7 @@ export class GridTemplateAreas extends Component {
           </p>
         </div>
         <div className="box-2">
-          <h3>Heading</h3>
+          <h3>Box-2</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             quisquam at veritatis a labore quod illo dolorem fugiat quas
@@ -48,7 +48,7 @@ export class GridTemplateAreas extends Component {
           </p>
         </div>
         <div className="box-3">
-          <h3>Heading</h3>
+          <h3>Box-3</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             quisquam at veritatis a labore quod illo dolorem fugiat quas
@@ -57,7 +57,7 @@ export class GridTemplateAreas extends Component {
           </p>
         </div>
         <div className="box-4">
-          <h3>Heading</h3>
+          <h3>Box-4</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             quisquam at veritatis a labore quod illo dolorem fugiat quas
@@ -66,7 +66,7 @@ export class GridTemplateAreas extends Component {
           </p>
         </div>
         <footer className="footer">
-          <p>Copyright &copy; 2019</p>
+          <p>Footer</p>
         </footer>
       </div>
     )
